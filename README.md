@@ -14,19 +14,19 @@ npm run dev # run
 
 #### webstorm
 
-Editor > Code Style > TypeScript > Tab and Indents
+##### Editor > Code Style > TypeScript > Tab and Indents
 
 Tab size: `2`  
 Indent: `2`  
 Continuation indent: `2`
 
-Editor > Code Style > TypeScript > Punctuation
+##### Editor > Code Style > TypeScript > Punctuation
 
 `Don't use` semicolon to terminate statements `always`
 Use `single` quotos `always`
 Trailing comma: `Keep`
 
-Editor > Code Style > TypeScript > Others
+##### Editor > Code Style > TypeScript > Others
 
 Align 'var' statements and assignments  
 `Align multiple 'var' statements and assignments`
@@ -34,7 +34,10 @@ Align 'var' statements and assignments
 Comments Code  
 `Line comments at first column`
 
-webstorm 에서 typescript 컴파일을 켜야함
+##### Languages & Frameworks > TypeScript
+ 
+Compiler  
+`Enable TypeScript Compiler`
 
 ### production
 
