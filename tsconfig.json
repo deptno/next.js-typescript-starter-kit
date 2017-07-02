@@ -5,9 +5,11 @@
     "jsx": "react",
     "sourceMap": true,
     "lib": ["es2017", "dom"],
+    "experimentalDecorators": true,
     "typeRoots": ["src/@types", "node_modules/@types"]
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "out"
   ]
 }
