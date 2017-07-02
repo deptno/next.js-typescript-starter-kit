@@ -22,8 +22,8 @@ Continuation indent: `2`
 
 ##### Editor > Code Style > TypeScript > Punctuation
 
-`Don't use` semicolon to terminate statements `always`
-Use `single` quotos `always`
+`Don't use` semicolon to terminate statements `always`  
+Use `single` quotos `always`  
 Trailing comma: `Keep`
 
 ##### Editor > Code Style > TypeScript > Others
