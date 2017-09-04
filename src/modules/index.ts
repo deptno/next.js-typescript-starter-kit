@@ -5,3 +5,6 @@ export const epics$  = combineEpics(
 )
 export const reducer = combineReducers<RootState>({
 })
+
+export interface RootState {
+}
