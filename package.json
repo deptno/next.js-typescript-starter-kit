@@ -22,8 +22,7 @@
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.1",
-    "redux-observable": "^0.16.0",
-    "rxjs": "^5.4.1"
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "@types/jest": "^20.0.8",

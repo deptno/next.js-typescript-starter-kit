@@ -1,4 +1,18 @@
-# fixme
+# nextjs-typescript-boilerplate
+
+## by middleware
+
+### redux-thunk
+
+```bash
+wget -qO- https://github.com/deptno/nextjs-typescript=boilerplate/archive/mw/redux-thunk.zip | bsdtar -xf- && mv nextjs-typescript=boilerplate-master [your_project]
+```
+
+### redux-observable
+```bash
+wget -qO- https://github.com/deptno/nextjs-typescript=boilerplate/archive/mw/redux-observable.zip | bsdtar -xf- && mv nextjs-typescript=boilerplate-master [your_project]
+```
+---
 
 ## env
 

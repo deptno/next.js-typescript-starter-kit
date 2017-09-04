@@ -1,8 +1,8 @@
 import {applyMiddleware, compose, createStore} from 'redux'
-import {createEpicMiddleware} from 'redux-observable'
-import {epics$, reducer, RootState} from './redux'
+import {reducer, RootState} from './redux'
 import {Store} from 'react-redux'
 import {DEV} from './constants/env'
+import thunk from 'redux-thunk'
 
 let store
 
@@ -11,7 +11,7 @@ export const getStore = (state, isServer?): Store<RootState> => {
     return createStore<RootState>(
       reducer,
       state,
-      applyMiddleware(createEpicMiddleware(epics$))
+      applyMiddleware(thunk)
     )
   } else {
     const composeEnhancers = DEV && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
@@ -26,7 +26,7 @@ export const getStore = (state, isServer?): Store<RootState> => {
       store = createStore<RootState>(
         reducer,
         state,
-        composeEnhancers(applyMiddleware(createEpicMiddleware(epics$)))
+        composeEnhancers(applyMiddleware(thunk))
       )
     }
     return store
