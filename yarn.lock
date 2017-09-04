@@ -1682,6 +1682,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
+directory-tree@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/directory-tree/-/directory-tree-2.0.0.tgz#c0a5fa0d642a1b1b7d10351b3c1db429770d8946"
+
 dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
@@ -3423,6 +3427,12 @@ next@^3.2.1:
     webpack-hot-middleware "2.18.2"
     write-file-webpack-plugin "4.1.0"
     xss-filters "1.2.7"
+
+nextjs-export-path-map@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/nextjs-export-path-map/-/nextjs-export-path-map-0.0.1.tgz#d7e0770bdbb4dd2455749a68269edea2528ce622"
+  dependencies:
+    directory-tree "^2.0.0"
 
 node-fetch@^1.0.1:
   version "1.7.2"
