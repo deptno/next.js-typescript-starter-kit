@@ -1,7 +1,5 @@
 import * as React from 'react'
+import * as classnames from 'classnames'
 
-export class Home extends React.Component<undefined, undefined> {
-  render() {
-    return <div className="row Home">hello deptno@gmail.com!</div>
-  }
-}
+export const Home = props =>
+  <div className={classnames('row', 'home')}>home</div>
