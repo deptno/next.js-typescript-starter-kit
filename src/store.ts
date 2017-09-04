@@ -21,8 +21,6 @@ export const getStore = (state, isServer?): Store<RootState> => {
       }
 
       store = createStore<RootState>(reducer, state, composeEnhancers(applyMiddleware(createEpicMiddleware(epics$))) as any)
-      // store.dispatch(initializeNa());
-      // store.dispatch(initializeBeusable());
     }
     return store
   }

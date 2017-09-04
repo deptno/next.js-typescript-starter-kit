@@ -12,19 +12,19 @@
     "start": "next start"
   },
   "dependencies": {
-    "@types/react": "^15.0.34",
+    "@types/react": "^16.0.5",
     "classnames": "^2.2.5",
-    "next": "beta",
+    "next": "^3.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.1",
-    "redux-observable": "^0.14.1",
+    "redux-observable": "^0.16.0",
     "rxjs": "^5.4.1"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "postcss-cssnext": "^2.11.0",
+    "postcss-cssnext": "^3.0.2",
     "postcss-loader": "^2.0.6",
     "postcss-nested": "^2.0.2",
     "skeleton-loader": "^1.1.3",
