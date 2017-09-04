@@ -9,7 +9,7 @@
     "tsc": "tsc",
     "dev": "next",
     "build:dev": "next build",
-    "build": "NODE_ENV=production next build",
+    "build": "npm run tsc && NODE_ENV=production next build",
     "start": "next start",
     "test": "jest"
   },
