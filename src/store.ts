@@ -3,6 +3,10 @@ import {reducer, RootState} from './redux'
 import {Store} from 'react-redux'
 import {DEV} from './constants/env'
 import thunk from 'redux-thunk'
+import {createLogger} from 'redux-logger';
+import {persistStore, autoRehydrate} from 'redux-persist'
+import {initializeNa} from './redux/log/index'
+import {session} from './redux/system/index'
 
 let store
 
@@ -17,17 +21,30 @@ export const getStore = (state, isServer?): Store<RootState> => {
     const composeEnhancers = DEV && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
     if (!store) {
+      const mw = [thunk]
       if (!DEV) {
         if (window.__REACT_DEVTOOLS_GLOBAL_HOOK__) {
           window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function () {}
         }
+      } else {
+        mw.push(createLogger({
+          predicate: (getState, action) => !/^@@/.test(action.type),
+          collapsed: true
+        }));
       }
 
       store = createStore<RootState>(
         reducer,
         state,
-        composeEnhancers(applyMiddleware(thunk))
+        composeEnhancers(applyMiddleware(...mw), autoRehydrate())
       )
+      store.dispatch(initializeNa());
+      store.dispatch(session());
+
+      const whitelist = ['persist']
+      persistStore(store, {whitelist}, _ => {
+        console.log(`define whitelist: ${whitelist.join(', ')}`)
+      })
     }
     return store
   }
