@@ -5,12 +5,13 @@
 ### redux-thunk
 
 ```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/redux-thunk.zip | bsdtar -xf- && mv redux-thunk [your_project]
+wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/redux-thunk.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-mw-redux-thunk [your_project]
 ```
 
 ### redux-observable
+
 ```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/redux-observable.zip | bsdtar -xf- && mv redux-observable [your_project]
+wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/redux-observable.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-mw-redux-observable [your_project]
 ```
 ---
 
