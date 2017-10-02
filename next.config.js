@@ -1,5 +1,4 @@
-import {exportPathMap} from 'nextjs-export-path-map'
-
+const {exportPathMap} = require('nextjs-export-path-map')
 const trash = require('trash')
 
 module.exports = {
