@@ -11,7 +11,7 @@ wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/red
 ### redux-thunk/next-v4
 
 ```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/nextjs/4.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-next.js-4 [your_project]
+wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/next.js/4.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-next.js-4 [your_project]
 ```
 
 ### redux-observable
