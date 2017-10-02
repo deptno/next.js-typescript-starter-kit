@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Document, {Head, Main, NextScript} from 'next/document'
-import {DOMProperty} from 'react-dom/lib/ReactInjection'
 import {
   DEV, FB_TRACKING_ID, SENTRY_TRACKING_ID, SITE_DESCRIPTION, SITE_IMAGE,
   SITE_NAME, SITE_TITLE
