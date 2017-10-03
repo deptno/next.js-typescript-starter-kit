@@ -1,6 +1,5 @@
 # nextjs-typescript-boilerplate
 
-
 ## redux-thunk
 
 ```bash
@@ -13,11 +12,6 @@ wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/master
 wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/next.js/4.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-next.js-4 [your_project]
 ```
 
-> may not work
-
-```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/redux-observable.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-mw-redux-observable [your_project]
-```
 ---
 
 ## env
