@@ -3442,9 +3442,9 @@ next@^3.2.1:
     write-file-webpack-plugin "4.1.0"
     xss-filters "1.2.7"
 
-nextjs-export-path-map@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/nextjs-export-path-map/-/nextjs-export-path-map-0.0.1.tgz#d7e0770bdbb4dd2455749a68269edea2528ce622"
+nextjs-export-path-map@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/nextjs-export-path-map/-/nextjs-export-path-map-0.1.2.tgz#ee558181aa93a06ed08e39cae4640cc6316f7099"
   dependencies:
     directory-tree "^2.0.0"
 
