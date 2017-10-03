@@ -1,18 +1,17 @@
 # nextjs-typescript-boilerplate
 
-## by middleware
-
-### redux-thunk
+## redux-thunk
 
 ```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/redux-thunk.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-mw-redux-thunk [your_project]
+wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/master.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-master [your_project]
 ```
 
-### redux-observable
+### redux-thunk/next-v4
 
 ```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/mw/redux-observable.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-mw-redux-observable [your_project]
+wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/next.js/4.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-next.js-4 [your_project]
 ```
+
 ---
 
 ## env

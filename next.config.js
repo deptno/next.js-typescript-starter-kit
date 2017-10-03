@@ -33,5 +33,5 @@ module.exports = {
         })
         return config
     },
-    exportPathMap
+    exportPathMap: exportPathMap.bind(null, path.join(__dirname, 'pages'))
 }
