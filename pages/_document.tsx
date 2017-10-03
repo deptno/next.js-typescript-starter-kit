@@ -6,7 +6,7 @@ import {
 } from '../src/constants/env'
 //import stylesheet from './global.pcss'
 
-export default class RSquareDocument extends Document {
+export default class extends Document {
   static async getInitialProps(...args) {
     const documentProps = await super.getInitialProps(...args)
     const {req, renderPage} = args[0]
