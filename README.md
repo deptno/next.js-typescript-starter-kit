@@ -3,13 +3,14 @@
 ## redux-thunk
 
 ```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/master.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-master [your_project]
+wget -qO- https://github.com/deptno/next.js-typescript-boilerplate/archive/master.zip | bsdtar -xf- && mv next.js-typescript-boilerplate-master [your_project]
 ```
 
 ### redux-thunk/next-v4
 
 ```bash
-wget -qO- https://github.com/deptno/nextjs-typescript-boilerplate/archive/next.js/4.zip | bsdtar -xf- && mv nextjs-typescript-boilerplate-next.js-4 [your_project]
+wget -qO- https://github.com/deptno/next.js-typescript-boilerplate/archive/next.js/4.zip | bsdtar -xf- && mv next.js-typescript-boilerplate-next.js-4 [your_project]
+
 ```
 
 ---
