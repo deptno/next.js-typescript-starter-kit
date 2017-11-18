@@ -1,4 +1,4 @@
-# nextjs-typescript-boilerplate
+# next.js-typescript-boilerplate
 
 ## redux-thunk
 
