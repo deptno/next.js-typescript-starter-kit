@@ -2,9 +2,8 @@ import * as React from 'react'
 import {Header} from './Header'
 import {Footer} from './Footer'
 import Head from 'next/head'
-import stylesheet from './global.pcss'
 
-export class Layout extends React.Component<undefined, undefined> {
+export class Layout extends React.Component<{}, {}> {
   render() {
     const {children} = this.props
     return (
@@ -14,7 +13,11 @@ export class Layout extends React.Component<undefined, undefined> {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <style {...{jsx: true}}>{stylesheet}</style>
+          {/*language=PostCSS*/}
+          <style jsx global>{`//global stylesheet
+
+          `}
+          </style>
         </Head>
         <Header/>
         <main>

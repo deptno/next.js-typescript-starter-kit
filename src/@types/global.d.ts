@@ -11,8 +11,8 @@ declare module '*.svg' {
   const resource: string
   export = resource
 }
-
 declare module '*.pcss' {
   const resource: string
   export default resource
 }
+

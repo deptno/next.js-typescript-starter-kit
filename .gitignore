@@ -4,8 +4,10 @@
 out
 pages/**/*.js
 pages/**/*.map
+pages/**/*.jsx
 src/**/*.js
 src/**/*.map
+src/**/*.jsx
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template

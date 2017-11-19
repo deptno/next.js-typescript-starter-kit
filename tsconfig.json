@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
-    "jsx": "react",
-    "sourceMap": true,
+    "target": "esnext",
+    "jsx": "react-native",
+    "sourceMap": false,
     "lib": ["es2017", "dom"],
     "experimentalDecorators": true,
-    "typeRoots": ["src/@types", "node_modules/@types"]
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "noImplicitUseStrict": true,
+    "removeComments": true
   },
   "exclude": [
     "node_modules",
-    "out"
+    "out",
+    ".next"
   ]
 }

@@ -1,16 +1,31 @@
 # next.js-typescript-boilerplate
 
+next.js integrated with typescript
+
+## feature
+
+### support
+ - :tada: styled-jsx
+ - SEO & analytics(Google Analytics, Facebook Pixel, Naver Analytics)
+
+### integration
+ - next@4
+ - react@16
+ - redux-thunk
+ - react-ga
+ - redux-persist
+
+### using cdn
+ - bootstrap@4.0.0-beta.2
+ - font-awesome@4.7
+
 ## installation
 
-```bash
-wget -qO- https://github.com/deptno/next.js-typescript-boilerplate/archive/master.zip | bsdtar -xf- && mv next.js-typescript-boilerplate-master [your_project]
-```
-
-or
-
-```
+```sh
 git clone https://github.com/deptno/next.js-typescript-boilerplate
 ```
+
+## setup
 
 set SEO & analytics variables
 
@@ -30,6 +45,8 @@ export const SITE_TITLE = ''
 export const SITE_DESCRIPTION = ''
 export const SITE_IMAGE = ''
 ```
+
+if each variable evaluated false, it does not load related library
 
 ---
 
