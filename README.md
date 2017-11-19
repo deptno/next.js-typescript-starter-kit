@@ -13,7 +13,7 @@ next.js integrated with typescript
  - react@16
  - redux-thunk
  - react-ga
- - redux-persist
+ - redux-persist@4
 
 ### using cdn
  - bootstrap@4.0.0-beta.2
@@ -48,6 +48,43 @@ export const SITE_IMAGE = ''
 
 if each variable evaluated false, it does not load related library
 
+## usage
+
+### styled-jsx
+
+#### global scope
+
+[src/components/Layout.tsx](src/components/Layout.tsx)
+
+```typescript jsx
+const Layout = props =>
+  <head>
+{/*language=PostCSS*/}
+          <style jsx global>{`//global stylesheet
+            div > * {
+              font-size: 32px;
+            }
+          `}
+          </style>
+</head>
+
+```
+
+#### local scope
+
+[src/components/Home.tsx](src/components/Home.tsx)
+
+```typescript jsx
+export const Home = props =>
+  <div>
+    {/*language=PostCSS*/}
+    <style jsx>{`{
+      color: darkred;
+    }`}</style>
+    home
+  </div>
+```
+
 ---
 
 ## changelog
@@ -73,7 +110,7 @@ if each variable evaluated false, it does not load related library
 
 ```
 npm install
-npm run tsc # run typescript compiler ts -> js
+npm run tsc # run typescript compiler ts -> js or use IDE compile(recoommended)
 npm run dev # run
 ```
 
