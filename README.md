@@ -110,7 +110,7 @@ export const Home = props =>
 
 ```
 npm install
-npm run tsc # run typescript compiler ts -> js or use IDE compile(recoommended)
+npm run ts:compile # run typescript compiler ts -> js or use IDE compile(recoommended)
 npm run dev # run
 ```
 
@@ -145,7 +145,7 @@ Compiler
 
 ```
 npm install
-npm run tsc # run typescript compiler ts -> js
+npm run ts:compile # run typescript compiler ts -> js
 npm run build # create .next directory
 npm start # start server
 ```

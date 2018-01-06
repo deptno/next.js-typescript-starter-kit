@@ -7,7 +7,8 @@ import {
 
 export default class extends Document {
   static async getInitialProps(...args) {
-    const documentProps = await super.getInitialProps(...args)
+    const d: any = Document
+    const documentProps = await d.getInitialProps(...args)
     const {req, renderPage} = args[0]
     const page = renderPage()
 
@@ -81,6 +82,10 @@ fbq('track', 'PageView'); `
           }}>
           </script>
         )}
+        {DEV
+          ? <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+          : <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+        }
       </Head>
       <body>
       <Main/>
