@@ -1,6 +1,6 @@
 {
   "name": "nextjs-typescript-boilerplate",
-  "version": "4.1.4",
+  "version": "5.0.0",
   "main": "index.js",
   "repository": "https://github.com/deptno/nextjs-typescript-boilerplate",
   "author": "bglee <deptno@gmail.com>",
