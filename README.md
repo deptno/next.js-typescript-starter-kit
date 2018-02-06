@@ -1,4 +1,4 @@
-# next.js-typescript-boilerplate
+# next.js-typescript-starter-kit
 
 next.js integrated with typescript
 
@@ -23,7 +23,7 @@ next.js integrated with typescript
 ## installation
 
 ```sh
-git clone https://github.com/deptno/next.js-typescript-boilerplate
+git clone https://github.com/deptno/next.js-typescript-starter-kit
 ```
 
 ## setup
@@ -88,12 +88,17 @@ export const Home = props =>
 
 #### other way
 
-- styled-jsx/css [issue#2](https://github.com/deptno/next.js-typescript-boilerplate/issues/2)
+- styled-jsx/css [issue#2](https://github.com/deptno/next.js-typescript-starter-kit/issues/2)
 
 ---
 
 ## changelog
 
+### 5.0.1
+
+- name change
+  - next.js-typescript-boilerplate -> next.js-typescript-starter-kit
+  
 ### 5.0.0
 
 - package.json scripts

@@ -1,8 +1,8 @@
 {
-  "name": "next.js-typescript-boilerplate",
+  "name": "next.js-typescript-starter-kit",
   "version": "5.0.0",
   "main": "index.js",
-  "repository": "https://github.com/deptno/next.js-typescript-boilerplate",
+  "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
   "author": "bglee <deptno@gmail.com>",
   "license": "MIT",
   "scripts": {
