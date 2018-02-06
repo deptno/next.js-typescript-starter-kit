@@ -1,4 +1,4 @@
-# next.js-typescript-boilerplate
+# next.js-typescript-starter-kit
 
 next.js integrated with typescript
 
@@ -94,6 +94,11 @@ export const Home = props =>
 
 ## changelog
 
+### 5.0.1
+
+- name change
+  - next.js-typescript-boilerplate -> next.js-typescript-starter-kit
+  
 ### 5.0.0
 
 - package.json scripts
