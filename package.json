@@ -1,16 +1,16 @@
 {
-  "name": "nextjs-typescript-boilerplate",
+  "name": "next.js-typescript-boilerplate",
   "version": "5.0.0",
   "main": "index.js",
-  "repository": "https://github.com/deptno/nextjs-typescript-boilerplate",
+  "repository": "https://github.com/deptno/next.js-typescript-boilerplate",
   "author": "bglee <deptno@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "ts:compile": "tsc",
     "dev": "next",
     "build:dev": "next build",
-    "build": "npm run ts:compile && NODE_ENV=production next build",
-    "analyze": "npm run ts:compile && NODE_ENV=production ANALYZE=true next build",
+    "build": "NODE_ENV=production next build",
+    "export": "next export",
+    "analyze": "NODE_ENV=production ANALYZE=true next build",
     "start": "next start",
     "test": "jest"
   },
@@ -44,7 +44,7 @@
     "redux-logger": "^3.0.6",
     "skeleton-loader": "^1.1.4",
     "tslint": "^5.4.3",
-    "typescript": "^2.6.1",
+    "typescript": "^2.7.1",
     "webpack-bundle-analyzer": "^2.9.0"
   },
   "jest": {

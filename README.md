@@ -5,11 +5,12 @@ next.js integrated with typescript
 ## feature
 
 ### support
- - :tada: styled-jsx
+ - :tada: typescript integrated
+ - styled-jsx
  - SEO & analytics(Google Analytics, Facebook Pixel, Naver Analytics)
 
 ### integration
- - next@4
+ - next@5
  - react@16
  - redux-thunk
  - react-ga
@@ -59,14 +60,14 @@ if each variable evaluated false, it does not load related library
 ```typescript jsx
 const Layout = props =>
   <head>
-{/*language=PostCSS*/}
-          <style jsx global>{`//global stylesheet
-            div > * {
-              font-size: 32px;
-            }
-          `}
-          </style>
-</head>
+    {/*language=PostCSS*/}
+    <style jsx global>{`//global stylesheet
+      div > * {
+        font-size: 32px;
+      }
+    `}
+    </style>
+  </head>
 
 ```
 
@@ -85,16 +86,35 @@ export const Home = props =>
   </div>
 ```
 
+#### other way
+
+- styled-jsx/css [issue#2](https://github.com/deptno/next.js-typescript-boilerplate/issues/2)
+
 ---
 
 ## changelog
+
+### 5.0.0
+
+- package.json scripts
+  - add `export`, to export static assets(MUST run after `npm run build`)
+  - remove `ts:compile` script (no more need to run tsc)
+  
+- apply new packages
+  - @next/next-typescript
+  
+- update packages
+  - next@5.0.0
+  - react@16.2
+  - react-dom@16.2
+  - typescript@2.7.1
 
 ### 4.1.4
 
 - update packages
   - next@4.1.4
-  - react@1.6.1
-  - react-dom@1.6.1
+  - react@16.1
+  - react-dom@16.1
   - typescript@2.6.1
 - update packages client load
   - bootstrap@4.0.0-beta.2
@@ -110,36 +130,8 @@ export const Home = props =>
 
 ```
 npm install
-npm run ts:compile # run typescript compiler ts -> js or use IDE compile(recoommended)
 npm run dev # run
 ```
-
-#### webstorm
-
-##### Editor > Code Style > TypeScript > Tab and Indents
-
-Tab size: `2`  
-Indent: `2`  
-Continuation indent: `2`
-
-##### Editor > Code Style > TypeScript > Punctuation
-
-`Don't use` semicolon to terminate statements `always`  
-Use `single` quotos `always`  
-Trailing comma: `Keep`
-
-##### Editor > Code Style > TypeScript > Others
-
-Align 'var' statements and assignments  
-`Align multiple 'var' statements and assignments`
-
-Comments Code  
-`Line comments at first column`
-
-##### Languages & Frameworks > TypeScript
- 
-Compiler  
-`Enable TypeScript Compiler`
 
 ### production
 
