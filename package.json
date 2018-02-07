@@ -12,7 +12,9 @@
     "export": "next export",
     "analyze": "NODE_ENV=production ANALYZE=true next build",
     "start": "next start",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@types/classnames": "^2.2.3",
@@ -44,9 +46,13 @@
     "postcss-nested": "^2.1.2",
     "redux-logger": "^3.0.6",
     "skeleton-loader": "^1.1.4",
-    "tslint": "^5.4.3",
     "typescript": "^2.7.1",
-    "webpack-bundle-analyzer": "^2.9.0"
+    "webpack-bundle-analyzer": "^2.9.0",
+    "@storybook/react": "^3.3.12",
+    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-links": "^3.3.12",
+    "@storybook/addons": "^3.3.12",
+    "babel-core": "^6.26.0"
   },
   "jest": {
     "moduleFileExtensions": [
