@@ -6,6 +6,7 @@ next.js integrated with typescript
 
 ### support
  - :tada: typescript integrated
+ - storybook support(storybook doesn't share webpack config with next.js)
  - styled-jsx
  - SEO & analytics(Google Analytics, Facebook Pixel, Naver Analytics)
 
@@ -86,13 +87,18 @@ export const Home = props =>
   </div>
 ```
 
-#### other way
+#### others
 
 - styled-jsx/css [issue#2](https://github.com/deptno/next.js-typescript-starter-kit/issues/2)
+- external css, module [issue#3](https://github.com/deptno/next.js-typescript-starter-kit/issues/3)
 
 ---
 
 ## changelog
+
+### 5.0.2
+
+- add storybook
 
 ### 5.0.1
 
@@ -142,9 +148,16 @@ npm run dev # run
 
 ```
 npm install
-npm run ts:compile # run typescript compiler ts -> js
 npm run build # create .next directory
 npm start # start server
+```
+
+or
+
+```
+npm install
+npm run build # create .next directory
+npm run export # create .out directory
 ```
 
 ## license
