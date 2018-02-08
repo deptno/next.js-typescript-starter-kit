@@ -96,6 +96,16 @@ export const Home = props =>
 
 ## changelog
 
+### 5.0.3
+
+- fix
+  - store-reducer connection
+- add enzyme
+  - scripts
+     - `npm run test`
+     - `npm run test:watch`
+- rename dev script `npm run dev` > `npm run start:dev`
+
 ### 5.0.2
 
 - add storybook
@@ -141,7 +151,7 @@ export const Home = props =>
 
 ```
 npm install
-npm run dev # run
+npm run start:dev # run
 ```
 
 ### production

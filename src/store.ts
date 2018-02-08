@@ -5,8 +5,8 @@ import {DEV} from './constants/env'
 import thunk from 'redux-thunk'
 import {createLogger} from 'redux-logger';
 import {persistStore, autoRehydrate} from 'redux-persist'
-import {initializeNa} from './redux/log/index'
-import {session} from './redux/system/index'
+import {initializeNa} from './redux/log'
+import {session} from './redux/system'
 
 let store
 
