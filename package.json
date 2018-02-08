@@ -1,6 +1,6 @@
 {
   "name": "next.js-typescript-starter-kit",
-  "version": "5.0.2",
+  "version": "5.0.0.3",
   "main": "index.js",
   "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
   "author": "bglee <deptno@gmail.com>",
