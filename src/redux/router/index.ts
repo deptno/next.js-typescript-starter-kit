@@ -1,15 +1,6 @@
-import Router from 'next/router'
 import * as qs from 'querystring'
-import {cleanObject} from '../../modules/index'
-import {Reducer} from 'redux'
-
-export const reducer: Reducer<{}> = (state = {}, action) => {
-  const {type, payload} = action
-  switch (type) {
-    default:
-      return state
-  }
-}
+import Router from 'next/router'
+import {cleanObject} from '../../lib'
 
 enum ActionTypes {
   CHANGE_URL = 'change url',

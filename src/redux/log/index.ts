@@ -30,7 +30,7 @@ export const initializeGa = (userId?) => {
 
     addRouteCompleteEvent(url => {
       GA.pageview(url)
-      wcs_do(_nasa)
+      window.wcs && wcs_do(_nasa)
     })
     return {type: INITIALIZED_GA}
   }
@@ -38,7 +38,7 @@ export const initializeGa = (userId?) => {
 }
 
 export const logNa     = (first: string, second: string) => {
-  if (!DEV) {
+  if (!DEV && window.wcs) {
     wcs_do({cnv: wcs.cnv(first, second)})
   }
   return {type: LOG_NA, payload: [first, second]}
@@ -50,7 +50,7 @@ export const setGaUser = (userId?) => {
   return {type: UPDATE_USER}
 }
 export const initializeNa = () => {
-  if (!DEV && NA_TRACKING_ID) {
+  if (!DEV && NA_TRACKING_ID && window.wcs) {
     if (!wcs_add) {
       wcs_add = {}
     }
