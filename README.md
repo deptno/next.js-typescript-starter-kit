@@ -9,6 +9,7 @@ next.js integrated with typescript
  - storybook support(storybook doesn't share webpack config with next.js)
  - styled-jsx
  - SEO & analytics(Google Analytics, Facebook Pixel, Naver Analytics)
+ - jest, enzyme
 
 ### integration
  - next@5
@@ -96,6 +97,13 @@ export const Home = props =>
 
 ## changelog
 
+### 5.0.4
+
+- update jest config
+  - scripts
+     - `npm run test:watch`
+     - `npm run test:coverage`
+     
 ### 5.0.3
 
 - fix
@@ -152,6 +160,14 @@ export const Home = props =>
 ```
 npm install
 npm run start:dev # run
+```
+
+#### test
+
+```
+npm run test # test
+npm run test:watch
+npm run test:coverage # report coverage
 ```
 
 ### production

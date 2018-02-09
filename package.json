@@ -1,6 +1,6 @@
 {
   "name": "next.js-typescript-starter-kit",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "main": "index.js",
   "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
   "author": "bglee <deptno@gmail.com>",
@@ -14,6 +14,7 @@
     "start": "next start",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -77,6 +78,16 @@
         "tsConfigFile": "jest.tsconfig.json"
       }
     },
-    "setupTestFrameworkScriptFile": "<rootDir>/enzyme.js"
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "enzyme.js"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/enzyme.js",
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "text-summary"
+    ]
   }
 }
