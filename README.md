@@ -100,9 +100,11 @@ export const Home = props =>
 ### 5.0.4
 
 - update jest config
-  - scripts
-     - `npm run test:watch`
-     - `npm run test:coverage`
+- scripts
+  - `npm run ts:check` # typescript error check
+  - `npm run test:watch`
+  - `npm run test:coverage`
+     
      
 ### 5.0.3
 
