@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    branches:
+      only:
+        - master
+    docker:
+      - image: deptno/circleci-awscli-node8:0.1
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-npm-deps-{{ checksum "package.json" }}
+      - run: npm install
+      - run: npm run ts:check
+      - run: npm run test:coverage
+      - save_cache:
+          key: v1-npm-deps-{{ checksum "package.json" }}
+          paths:
+            - node_modules

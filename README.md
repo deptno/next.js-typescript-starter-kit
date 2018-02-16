@@ -1,6 +1,11 @@
-# next.js-typescript-starter-kit
+# next.js-typescript-starter-kit [![CircleCI](https://circleci.com/gh/deptno/next.js-typescript-starter-kit.svg?style=svg)](https://circleci.com/gh/deptno/next.js-typescript-starter-kit)
 
 next.js integrated with typescript
+
+## branch
+
+- master, all
+- boilerplate, clean view code
 
 ## feature
 
@@ -96,6 +101,12 @@ export const Home = props =>
 ---
 
 ## changelog
+
+### 5.0.5
+
+- ci
+- fix
+  - Layout.tsx global style is not rendered in output <head> [issue#7](https://github.com/deptno/next.js-typescript-starter-kit/issues/7)
 
 ### 5.0.4
 
