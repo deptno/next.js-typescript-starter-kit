@@ -13,12 +13,12 @@ export class Layout extends React.Component<{}, {}> {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          {/*language=PostCSS*/}
-          <style jsx global>{`//global stylesheet
-
-          `}
-          </style>
         </Head>
+        {/*language=PostCSS*/}
+        <style jsx global>{`//global stylesheet
+
+        `}
+        </style>
         <Header/>
         <main>
           {children}
