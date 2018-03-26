@@ -102,6 +102,13 @@ export const Home = props =>
 
 ## changelog
 
+### 5.1.0
+
+- update packages
+  - typescript@2.7.2
+  - next@5.1.0
+  - ...etc@latest
+  
 ### 5.0.5
 
 - ci
