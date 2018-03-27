@@ -2,11 +2,6 @@
 
 next.js integrated with typescript
 
-## branch
-
-- master, all
-- boilerplate, clean view code
-
 ## feature
 
 ### support
