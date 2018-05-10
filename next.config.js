@@ -2,6 +2,8 @@ const path            = require('path')
 const withTypescript  = require('@zeit/next-typescript')
 const withCSS         = require('@zeit/next-css')
 const {exportPathMap} = require('nextjs-export-path-map')
+const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer")
+
 
 module.exports = withTypescript(
   withCSS({
