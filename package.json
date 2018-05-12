@@ -25,9 +25,9 @@
     "next": "^6.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-ga": "^2.5.0",
+    "react-ga": "git+https://github.com/react-ga/react-ga.git",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
+    "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-persist": "^4.9.1",
     "redux-thunk": "^2.2.0"
