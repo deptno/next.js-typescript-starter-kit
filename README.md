@@ -8,7 +8,7 @@ next.js integrated with typescript
  - :tada: typescript integrated
  - storybook support(storybook doesn't share webpack config with next.js)
  - styled-jsx
- - SEO & analytics(Google Analytics, Facebook Pixel, Naver Analytics)
+ - SEO & analytics(Google Analytics, Facebook Pixel, <s>Naver Analytics</s>)
  - jest, enzyme
 
 ### integration
@@ -38,7 +38,6 @@ set SEO & analytics variables
 export const DEV = process.env.NODE_ENV !== 'production'
 
 export const GA_TRACKING_ID = ''
-export const NA_TRACKING_ID = ''
 export const FB_TRACKING_ID = ''
 export const SENTRY_TRACKING_ID = ''
 

@@ -48,7 +48,6 @@ export default class extends Document {
         <link rel="shortcut icon" href="/static/img/favicon.ico"/>
 
         <meta name="format-detection" content="telephone=no, address=no, email=no"/>
-        <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes,String.prototype.includes,Array.prototype.findIndex,Object.entries"></script>
         {!DEV && FB_TRACKING_ID && (
           <script
