@@ -5,7 +5,6 @@ import {DEV} from './constants/env'
 import thunk from 'redux-thunk'
 import {createLogger} from 'redux-logger';
 import {persistStore, autoRehydrate} from 'redux-persist'
-import {initializeNa} from './redux/log'
 import {session} from './redux/system'
 
 let store
@@ -38,7 +37,6 @@ export const getStore = (state, isServer?): Store<RootState> => {
         state,
         composeEnhancers(applyMiddleware(...mw), autoRehydrate())
       )
-      store.dispatch(initializeNa());
       store.dispatch(session());
 
       const whitelist = ['persist']

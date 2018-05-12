@@ -2,6 +2,7 @@
 
 ### 6.0.1
 
+- unsupport naver analytics(unsafe)
 - update packages
   - next@6.0.1
   - typescript@2.8.3
