@@ -7,8 +7,7 @@ import {
 
 export default class extends Document {
   static async getInitialProps(...args) {
-    const d: any = Document
-    const documentProps = await d.getInitialProps(...args)
+    const documentProps = await Document.getInitialProps(...args)
     const {req, renderPage} = args[0]
     const page = renderPage()
 
