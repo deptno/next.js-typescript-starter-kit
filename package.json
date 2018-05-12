@@ -47,6 +47,7 @@
     "@zeit/next-css": "^0.2.0",
     "@zeit/next-typescript": "^1.0.0",
     "babel-plugin-transform-define": "^1.3.0",
+    "babel-plugin-transform-define-file": "^1.3.2",
     "cssnano": "^3.10.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
