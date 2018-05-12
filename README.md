@@ -12,8 +12,8 @@ next.js integrated with typescript
  - jest, enzyme
 
 ### integration
- - next@5
- - react@16
+ - next@6
+ - react@16.3
  - redux-thunk
  - react-ga
  - redux-persist@4
