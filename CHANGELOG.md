@@ -1,5 +1,13 @@
 # changelog
 
+### 6.0.3
+
+- update packages
+  - next@6.0.3
+  - typescript@2.8.4
+  - react@16.4
+  - redux@4.0.0
+  
 ### 6.0.1
 
 - unsupport naver analytics(unsafe)

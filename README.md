@@ -13,7 +13,7 @@ next.js integrated with typescript
 
 ### integration
  - next@6
- - react@16.3
+ - react@16
  - redux-thunk
  - react-ga
  - redux-persist@4

@@ -1,6 +1,6 @@
 {
   "name": "next.js-typescript-starter-kit",
-  "version": "6.0.1",
+  "version": "6.0.3",
   "main": "index.js",
   "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
   "author": "Bonggyun Lee <deptno@gmail.com>",
@@ -22,15 +22,15 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "moment": "^2.22.1",
-    "next": "^6.0.1",
-    "react": "^16.3.2",
+    "next": "^6.0.3",
+    "react": "^16.4.0",
     "react-dom": "^16.3.2",
-    "react-ga": "git+https://github.com/react-ga/react-ga.git",
+    "react-ga": "^2.5.3",
     "react-redux": "^5.0.7",
-    "redux": "^3.7.2",
+    "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "redux-persist": "^4.9.1",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.3",
@@ -56,7 +56,7 @@
     "postcss-loader": "^2.1.5",
     "postcss-nested": "^3.0.0",
     "ts-jest": "^22.4.6",
-    "typescript": "^2.8.3",
+    "typescript": "^2.8.4",
     "webpack-bundle-analyzer": "^2.11.2"
   },
   "jest": {
