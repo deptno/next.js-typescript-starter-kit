@@ -8,6 +8,8 @@ pages/**/*.jsx
 src/**/*.js
 src/**/*.map
 src/**/*.jsx
+storybook-static
+.DS_Store
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template

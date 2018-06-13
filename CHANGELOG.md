@@ -1,5 +1,12 @@
 # changelog
 
+### 6.0.3-1
+
+- fix storybook not working [issue#14](https://github.com/deptno/next.js-typescript-starter-kit/issues/14)
+- update packages
+  - storybook@
+  - typescript@2.9.1(support jsx generic)
+
 ### 6.0.3
 
 - update packages
