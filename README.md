@@ -19,8 +19,8 @@ next.js integrated with typescript
  - redux-persist@4
 
 ### using cdn
- - bootstrap@4.0.0-beta.2
- - font-awesome@4.7
+ - bootstrap@4
+ - font-awesome@5
 
 ## installation
 

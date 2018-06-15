@@ -32,22 +32,22 @@ export default class extends Document {
         <meta name="twitter:title" content={SITE_TITLE}/>
         <meta name="twitter:description" content={SITE_DESCRIPTION}/>
         <meta property="twitter:image" content={SITE_IMAGE}/>
+        <meta name="format-detection" content="telephone=no, address=no, email=no"/>
 
         <link
-          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-          {...{crossOrigin: 'anonymous'}}
+          href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossOrigin="anonymous"
         />
         <link
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
           rel="stylesheet"
-          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-          {...{crossOrigin: 'anonymous'}}
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossOrigin="anonymous"
         />
         <link rel="shortcut icon" href="/static/img/favicon.ico"/>
 
-        <meta name="format-detection" content="telephone=no, address=no, email=no"/>
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes,String.prototype.includes,Array.prototype.findIndex,Object.entries"></script>
         {!DEV && FB_TRACKING_ID && (
           <script

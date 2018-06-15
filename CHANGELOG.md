@@ -1,5 +1,10 @@
 # changelog
 
+### 6.0.3-2
+- update cdn
+  - bootstrap@4
+  - fontawesome@5
+
 ### 6.0.3-1
 
 - fix storybook not working [issue#14](https://github.com/deptno/next.js-typescript-starter-kit/issues/14)
