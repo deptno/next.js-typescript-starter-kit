@@ -47,6 +47,7 @@ export default class extends Document {
           crossOrigin="anonymous"
         />
         <link rel="shortcut icon" href="/static/img/favicon.ico"/>
+        <link rel="stylesheet" href="/_next/static/style.css" />
 
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes,String.prototype.includes,Array.prototype.findIndex,Object.entries"></script>
         {!DEV && FB_TRACKING_ID && (

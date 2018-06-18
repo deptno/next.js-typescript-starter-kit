@@ -1,4 +1,6 @@
 # changelog
+### 6.0.3-3
+- fix import stylesheet, using module css
 
 ### 6.0.3-2
 - update cdn
@@ -6,14 +8,12 @@
   - fontawesome@5
 
 ### 6.0.3-1
-
 - fix storybook not working [issue#14](https://github.com/deptno/next.js-typescript-starter-kit/issues/14)
 - update packages
   - storybook@
   - typescript@2.9.1(support jsx generic)
 
 ### 6.0.3
-
 - update packages
   - next@6.0.3
   - typescript@2.8.4
@@ -21,7 +21,6 @@
   - redux@4.0.0
   
 ### 6.0.1
-
 - unsupport naver analytics(unsafe)
 - update packages
   - next@6.0.1
@@ -29,29 +28,24 @@
   - ...etc@latest
 
 ### 5.1.0
-
 - update packages
   - typescript@2.7.2
   - next@5.1.0
   - ...etc@latest
 
 ### 5.0.5
-
 - ci
 - fix
   - Layout.tsx global style is not rendered in output <head> [issue#7](https://github.com/deptno/next.js-typescript-starter-kit/issues/7)
 
 ### 5.0.4
-
 - update jest config
 - scripts
   - `npm run ts:check` # typescript error check
   - `npm run test:watch`
   - `npm run test:coverage`
 
-
 ### 5.0.3
-
 - fix
   - store-reducer connection
 - add enzyme
@@ -61,16 +55,13 @@
 - rename dev script `npm run dev` > `npm run start:dev`
 
 ### 5.0.2
-
 - add storybook
 
 ### 5.0.1
-
 - name change
   - next.js-typescript-boilerplate -> next.js-typescript-starter-kit
 
 ### 5.0.0
-
 - package.json scripts
   - add `export`, to export static assets(MUST run after `npm run build`)
   - remove `ts:compile` script (no more need to run tsc)
@@ -85,7 +76,6 @@
   - typescript@2.7.1
 
 ### 4.1.4
-
 - update packages
   - next@4.1.4
   - react@16.1
@@ -95,43 +85,3 @@
   - bootstrap@4.0.0-beta.2
 - version align with next
 
----
-
-## env
-
-### development
-
-#### installation
-
-```
-npm install
-npm run start:dev # run
-```
-
-#### test
-
-```
-npm run test # test
-npm run test:watch
-npm run test:coverage # report coverage
-```
-
-### production
-
-```
-npm install
-npm run build # create .next directory
-npm start # start server
-```
-
-or
-
-```
-npm install
-npm run build # create .next directory
-npm run export # create .out directory
-```
-
-## license
-
-MIT
