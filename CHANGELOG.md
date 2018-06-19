@@ -1,4 +1,12 @@
 # changelog
+### 6.0.3-4
+- storybook
+  - add head.html to load cdn
+  - use @zeit/next-css for module css config 
+- update packages
+  - typescript@2.9.2
+  - @zeit/next-typescript@1.1.0
+
 ### 6.0.3-3
 - fix import stylesheet, using module css
 
