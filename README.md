@@ -1,42 +1,39 @@
-# next.js-typescript-starter-kit [![CircleCI](https://circleci.com/gh/deptno/next.js-typescript-starter-kit.svg?style=svg)](https://circleci.com/gh/deptno/next.js-typescript-starter-kit)
+# Next.js TypeScript Starter Kit [![CircleCI](https://circleci.com/gh/deptno/next.js-typescript-starter-kit.svg?style=svg)](https://circleci.com/gh/deptno/next.js-typescript-starter-kit)
 
-next.js integrated with typescript
-
-## feature
-
-### support
- - :tada: typescript integrated
- - storybook support(storybook doesn't share webpack config with next.js)
- - styled-jsx
+## Feature
+ - TypeScript
+ - Styled-jsx
+ - Module css **(PostCSS - cssnext, nested)**
  - SEO & analytics(Google Analytics, Facebook Pixel, <s>Naver Analytics</s>)
- - jest, enzyme
+ - Storybook **(support module css)**
+ - Jest & Enzyme **(support module css)**
 
-### integration
+### Packages
  - next@6
  - react@16
  - redux-thunk
  - react-ga
  - redux-persist@4
 
-### using cdn
+### Load from CDN
  - bootstrap@4
  - font-awesome@5
 
-## installation
+## Installation
 
 ```sh
-git clone https://github.com/deptno/next.js-typescript-starter-kit
+git clone https://github.com/deptno/next.js-typescript-starter-kit my-project
+cd my-project
+rm -r .git
 ```
 
-## setup
+## Configuration
 
-set SEO & analytics variables
+Set SEO & analytics variables
 
 > src/constants/env.ts
 
 ```typescript
-export const DEV = process.env.NODE_ENV !== 'production'
-
 export const GA_TRACKING_ID = ''
 export const FB_TRACKING_ID = ''
 export const SENTRY_TRACKING_ID = ''
@@ -48,38 +45,41 @@ export const SITE_DESCRIPTION = ''
 export const SITE_IMAGE = ''
 ```
 
-if each variable evaluated false, it does not load related library
+If each variable evaluated false, it does not load related library
 
-## usage
+## Usage
 
-### styled-jsx
+### Module CSS ([src/components/Home.tsx](src/components/Home.tsx))
 
-#### global scope
+```typescript jsx
+import * as classnames from 'classnames'
+import * as css from './Home.css'
 
-[src/components/Layout.tsx](src/components/Layout.tsx)
+export const Just = props => <div className={css.className}>
+export const Mixed = props => <div className={classnames('row', 'home', css.home)}>
+```
+
+### Styled-jsx
+
+#### Global scope ([src/components/Layout.tsx](src/components/Layout.tsx))
 
 ```typescript jsx
 const Layout = props =>
   <head>
-    {/*language=PostCSS*/}
-    <style jsx global>{`//global stylesheet
+    <style jsx global>{`
       div > * {
         font-size: 32px;
       }
     `}
     </style>
   </head>
-
 ```
 
-#### local scope
-
-[src/components/Home.tsx](src/components/Home.tsx)
+#### Local scope ([src/components/Home.tsx](src/components/Home.tsx))
 
 ```typescript jsx
 export const Home = props =>
   <div>
-    {/*language=PostCSS*/}
     <style jsx>{`{
       color: darkred;
     }`}</style>
@@ -87,7 +87,7 @@ export const Home = props =>
   </div>
 ```
 
-#### others
+#### Others
 
 - styled-jsx/css [issue#2](https://github.com/deptno/next.js-typescript-starter-kit/issues/2)
 - external css, module [issue#3](https://github.com/deptno/next.js-typescript-starter-kit/issues/3)
@@ -95,4 +95,3 @@ export const Home = props =>
 ---
 
 ## [changelog](CHANGELOG.md)
-

@@ -1,4 +1,9 @@
 # changelog
+
+### 6.0.3-5
+- add module css test env
+- update readme
+
 ### 6.0.3-4
 - storybook
   - add head.html to load cdn

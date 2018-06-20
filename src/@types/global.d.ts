@@ -13,11 +13,11 @@ declare module '*.svg' {
 }
 declare module '*.css' {
   const resource: any
-  export default resource
+  export = resource
 }
 declare module '*.pcss' {
   const resource: string
-  export default resource
+  export = resource
 }
 declare module '*.json' {
   const resource: any
