@@ -1,5 +1,8 @@
 # changelog
 
+### 6.0.3-6
+- font-awesome@5.1.0
+
 ### 6.0.3-5
 - add module css test env
 - update readme

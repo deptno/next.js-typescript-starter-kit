@@ -94,4 +94,4 @@ export const Home = props =>
 
 ---
 
-## [changelog](CHANGELOG.md)
+## [Changelog](CHANGELOG.md)
