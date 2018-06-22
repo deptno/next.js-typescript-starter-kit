@@ -25,6 +25,47 @@
 git clone https://github.com/deptno/next.js-typescript-starter-kit my-project
 cd my-project
 rm -r .git
+npm install
+```
+
+## Run :rocket:
+
+#### :rocket: Test
+```bash
+npm run test # test
+npm run test:watch
+npm run test:coverage # report coverage
+```
+
+#### :rocket: StoryBook
+```bash
+npm run storybook # open browser localhost:6006
+```
+
+```bash
+npm run build-storybook # Build storybook static assets
+```
+
+### :rocket: Development
+
+```bash
+npm run start:dev # run
+```
+
+### :rocket: Production
+
+#### Serve
+```bash
+npm install
+npm run build # create .next directory
+npm start # start server
+```
+
+#### Build static HTML
+```bash
+npm install
+npm run build # create .next directory
+npm run export # create .out directory
 ```
 
 ## Configuration
