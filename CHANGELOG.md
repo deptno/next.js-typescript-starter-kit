@@ -1,29 +1,21 @@
 # changelog
 
-### 6.0.3-6
+### 6.0.3 fetch
+- update postcss
+- add postcss-import
 - font-awesome@5.1.0
-
-### 6.0.3-5
 - add module css test env
 - update readme
-
-### 6.0.3-4
 - storybook
   - add head.html to load cdn
   - use @zeit/next-css for module css config 
 - update packages
   - typescript@2.9.2
   - @zeit/next-typescript@1.1.0
-
-### 6.0.3-3
 - fix import stylesheet, using module css
-
-### 6.0.3-2
 - update cdn
   - bootstrap@4
   - fontawesome@5
-
-### 6.0.3-1
 - fix storybook not working [issue#14](https://github.com/deptno/next.js-typescript-starter-kit/issues/14)
 - update packages
   - storybook@

@@ -9,4 +9,7 @@ export const Home = props =>
       color: darkred;
     }`}</style>
     home
+    <div>
+      nested
+    </div>
   </div>
