@@ -33,7 +33,6 @@ Start with sample
  - redux-persist@4
 
 ### Load from CDN
- - bootstrap@4
  - font-awesome@5
 
 ## Installation
