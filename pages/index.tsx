@@ -1,17 +1,13 @@
 import * as React from 'react'
-import {Provider, Store} from 'react-redux'
 import {Home} from '../src/components/Home'
 import {Layout} from '../src/components/Layout'
-import {StaticPage} from './_page'
 
-export default class Index extends StaticPage<{}> {
+export default class Index extends React.Component {
   render() {
     return (
-      <Provider store={this.store}>
-        <Layout>
-          <Home/>
-        </Layout>
-      </Provider>
+      <Layout>
+        <Home/>
+      </Layout>
     )
   }
 }

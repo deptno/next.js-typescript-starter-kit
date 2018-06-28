@@ -7,18 +7,20 @@ export class Layout extends React.Component<{}, {}> {
   render() {
     const {children} = this.props
     return (
-      <div className="container-fluid">
+      <div id="layout">
+        {/*language=PostCSS*/}
+        <style jsx global>{`//global stylesheet
+        #layout {
+          background-color: hotpink;
+        }
+        `}
+        </style>
         <Head>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
         </Head>
-        {/*language=PostCSS*/}
-        <style jsx global>{`//global stylesheet
-
-        `}
-        </style>
         <Header/>
         <main>
           {children}
