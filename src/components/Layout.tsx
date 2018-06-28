@@ -11,7 +11,7 @@ export class Layout extends React.Component<{}, {}> {
         {/*language=PostCSS*/}
         <style jsx global>{`//global stylesheet
         #layout {
-          background-color: hotpink;
+          background-color: darkolivegreen;
         }
         `}
         </style>

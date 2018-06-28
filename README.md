@@ -1,16 +1,33 @@
 # Next.js TypeScript Starter Kit [![CircleCI](https://circleci.com/gh/deptno/next.js-typescript-starter-kit.svg?style=svg)](https://circleci.com/gh/deptno/next.js-typescript-starter-kit)
 
+![samples](assets/samples.png)
+
+Start with sample
+
+### Latest update
+- apply next@6.1
+- remove bootstrap cdn
+- more examples
+  - ssr
+  - module css
+  - style jsx
+- next.js way
+  -  custom _page.tsx => _app.tsx,
+  
+
+> see **[ChangeLog](CHANGELOG.md)**
+
 ## Feature
  - TypeScript
  - Styled-jsx
- - Module css **(PostCSS - cssnext, nested)**
+ - Module css **(PostCSS - cssnext, nested, import)**
  - SEO & analytics(Google Analytics, Facebook Pixel, <s>Naver Analytics</s>)
  - Storybook **(support module css)**
  - Jest & Enzyme **(support module css)**
 
 ### Packages
- - next@6
- - react@16
+ - next@6.1
+ - react@16.4
  - redux-thunk
  - react-ga
  - redux-persist@4
@@ -133,6 +150,3 @@ export const Home = props =>
 - styled-jsx/css [issue#2](https://github.com/deptno/next.js-typescript-starter-kit/issues/2)
 - external css, module [issue#3](https://github.com/deptno/next.js-typescript-starter-kit/issues/3)
 
----
-
-## [Changelog](CHANGELOG.md)

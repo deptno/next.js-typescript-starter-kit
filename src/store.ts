@@ -1,6 +1,5 @@
-import {applyMiddleware, compose, createStore} from 'redux'
+import {applyMiddleware, compose, createStore, Store} from 'redux'
 import {reducer, RootState} from './redux'
-import {Store} from 'react-redux'
 import {DEV} from './constants/env'
 import thunk from 'redux-thunk'
 import {createLogger} from 'redux-logger';

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const Nav = props =>
   <nav>
     <h4>
-      Navigation
+      samples
     </h4>
     <ul>
       <li>

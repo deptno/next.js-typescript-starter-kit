@@ -40,12 +40,6 @@ export default class extends Document {
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
           crossOrigin="anonymous"
         />
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-          crossOrigin="anonymous"
-        />
         <link rel="shortcut icon" href="/static/img/favicon.ico"/>
         <link rel="stylesheet" href="/_next/static/style.css" />
 

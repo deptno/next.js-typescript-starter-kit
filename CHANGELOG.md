@@ -1,5 +1,14 @@
 # changelog
 
+### 6.1.0
+- remove bootstrap cdn
+- more examples
+  - ssr
+  - module css
+  - style jsx
+- next.js way
+  -  custom _page.tsx => _app.tsx,
+
 ### 6.0.3 fetch
 - update postcss
 - add postcss-import
