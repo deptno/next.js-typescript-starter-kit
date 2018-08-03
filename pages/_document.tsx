@@ -64,21 +64,16 @@ fbq('track', 'PageView'); `
           </noscript>
         )}
         {!DEV && SENTRY_TRACKING_ID && (
-          <script
-            src="https://cdn.ravenjs.com/3.17.0/raven.min.js"
-            {...{crossOrigin: 'anonymous'}}
-          ></script>
+          <>
+            <script
+              src="https://cdn.ravenjs.com/3.17.0/raven.min.js"
+              {...{crossOrigin: 'anonymous'}}
+            />
+            <script dangerouslySetInnerHTML={{
+              __html: `Raven.config('https://${SENTRY_TRACKING_ID}@sentry.io/156600').install()`
+            }}/>
+          </>
         )}
-        {!DEV && SENTRY_TRACKING_ID && (
-          <script dangerouslySetInnerHTML={{
-            __html: `Raven.config('https://${SENTRY_TRACKING_ID}@sentry.io/156600').install()`
-          }}>
-          </script>
-        )}
-        {DEV
-          ? <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
-          : <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
-        }
       </Head>
       <body>
       <Main/>
