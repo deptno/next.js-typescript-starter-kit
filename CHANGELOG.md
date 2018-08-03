@@ -1,5 +1,10 @@
 # changelog
 
+### 6.1.1
+- typescript@3.0.1
+- next@6.1.1
+- react@16.4
+
 ### 6.1.0
 - remove bootstrap cdn
 - more examples

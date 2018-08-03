@@ -5,15 +5,9 @@
 Start with sample
 
 ### Latest update
-- apply next@6.1
-- remove bootstrap cdn
-- more examples
-  - ssr
-  - module css
-  - style jsx
-- next.js way
-  -  custom _page.tsx => _app.tsx,
-  
+- typescript@3.0.1
+- next@6.1.1
+- react@16.4
 
 > see **[ChangeLog](CHANGELOG.md)**
 
@@ -26,7 +20,7 @@ Start with sample
  - Jest & Enzyme **(support module css)**
 
 ### Packages
- - next@6.1
+ - next@6.1.1
  - react@16.4
  - redux-thunk
  - react-ga
