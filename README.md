@@ -5,9 +5,9 @@
 Start with sample
 
 ### Latest update
-- typescript@3.0.1
-- next@6.1.1
-- react@16.4
+- **REMOVED storybook** (conflict with TypeScript, Next), you can use via old version [v6.0.1](https://github.com/deptno/next.js-typescript-starter-kit/releases/tag/6.0.1)
+- typescript@3.1.1, next@7.0.1, react@16.5
+- applied postcss-preset-env
 
 > see **[ChangeLog](CHANGELOG.md)**
 
@@ -16,15 +16,8 @@ Start with sample
  - Styled-jsx
  - Module css **(PostCSS - cssnext, nested, import)**
  - SEO & analytics(Google Analytics, Facebook Pixel, <s>Naver Analytics</s>)
- - Storybook **(support module css)**
+ - ~~Storybook **(support module css)**~~
  - Jest & Enzyme **(support module css)**
-
-### Packages
- - next@6.1.1
- - react@16.4
- - redux-thunk
- - react-ga
- - redux-persist@4
 
 ### Load from CDN
  - font-awesome@5
@@ -35,47 +28,53 @@ Start with sample
 git clone https://github.com/deptno/next.js-typescript-starter-kit my-project
 cd my-project
 rm -r .git
-npm install
+yarn
 ```
 
 ## Run :rocket:
 
 #### :rocket: Test
 ```bash
-npm run test # test
-npm run test:watch
-npm run test:coverage # report coverage
+yarn test # test
+yarn test:watch
+yarn test:coverage # report coverage
 ```
+
+<details><summary>~~:rocket: StoryBook~~</summary>
+<p>
 
 #### :rocket: StoryBook
 ```bash
-npm run storybook # open browser localhost:6006
+yarn storybook # open browser localhost:6006
 ```
 
 ```bash
-npm run build-storybook # Build storybook static assets
+yarn build-storybook # Build storybook static assets
 ```
+
+</p>
+</details>
 
 ### :rocket: Development
 
 ```bash
-npm run start:dev # run
+yarn start:dev # run
 ```
 
 ### :rocket: Production
 
 #### Serve
 ```bash
-npm install
-npm run build # create .next directory
-npm start # start server
+yarn
+yarn build # create .next directory
+yarn start # start server
 ```
 
 #### Build static HTML
 ```bash
-npm install
-npm run build # create .next directory
-npm run export # create .out directory
+yarn
+yarn build # create .next directory
+yarn export # create .out directory
 ```
 
 ## Configuration
