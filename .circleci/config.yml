@@ -12,9 +12,9 @@ jobs:
       - checkout
       - restore_cache:
           key: v1-npm-deps-{{ checksum "package.json" }}
-      - run: npm install
-      - run: npm run ts:check
-      - run: npm run test:coverage
+      - run: yarn
+      - run: yarn ts:check
+      - run: yarn test:coverage
       - save_cache:
           key: v1-npm-deps-{{ checksum "package.json" }}
           paths:
