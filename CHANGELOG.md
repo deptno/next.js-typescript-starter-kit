@@ -1,5 +1,13 @@
 # changelog
 
+### 7.0.1
+- replace npm with yarn in `README.me`
+- remove storybook
+- apply postcss-preset-env
+- typescript@3.1.1
+- next@7.0.1
+- react@16.5
+
 ### 6.1.1
 - typescript@3.0.1
 - next@6.1.1
