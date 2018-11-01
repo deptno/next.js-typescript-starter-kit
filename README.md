@@ -27,7 +27,7 @@ Start with sample
 ```sh
 git clone https://github.com/deptno/next.js-typescript-starter-kit my-project
 cd my-project
-rm -r .git
+rm -rf .git
 yarn
 ```
 
