@@ -1,5 +1,11 @@
 # changelog
 
+### 7.0.2
+- add favicon
+- next@7.0.2
+- react@16.6
+- typescript@3.1.5
+
 ### 7.0.1
 - replace npm with yarn in `README.me`
 - remove storybook

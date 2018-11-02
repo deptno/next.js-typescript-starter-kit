@@ -6,8 +6,9 @@ Start with sample
 
 ### Latest update
 - **REMOVED storybook** (conflict with TypeScript, Next), you can use via old version [v6.0.1](https://github.com/deptno/next.js-typescript-starter-kit/releases/tag/6.0.1)
-- typescript@3.1.1, next@7.0.1, react@16.5
+- typescript@3.1.5, next@7.0.2, react@16.6
 - applied postcss-preset-env
+- add favicon.ico
 
 > see **[ChangeLog](CHANGELOG.md)**
 
