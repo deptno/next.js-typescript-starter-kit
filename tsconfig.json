@@ -4,21 +4,9 @@
     "target": "esnext",
     "jsx": "preserve",
     "sourceMap": false,
-    "experimentalDecorators": true,
-    "noImplicitUseStrict": true,
-    "removeComments": true,
-    "moduleResolution": "node",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
-    "typeRoots": [
-      "node_modules/@types",
-      "src/@types"
-    ]
+    "moduleResolution": "node"
   },
   "exclude": [
-    "node_modules",
     "out",
     ".next"
   ]

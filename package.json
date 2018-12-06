@@ -5,6 +5,7 @@
   "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
   "author": "Bonggyun Lee <deptno@gmail.com>",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "start:dev": "next",
     "build:dev": "next build",
