@@ -1,34 +1,28 @@
 import * as React from 'react'
 import {Layout} from '../src/components/Layout'
 
-export default class SSR extends React.Component<Props> {
-  static async getInitialProps(context) {
-    const props = {
-      name: '"next.js-typescript-starter-kit" from client'
-    }
-    const server = !!context.req
+const SSR: React.NextFunctionComponent<Props> = props =>
+  <Layout>
+    {props.name}
+  </Layout>
 
-    if (server) {
-      props.name = await mockFetchName()
-    }
+SSR.getInitialProps = async (context) => {
+  const props = {
+    name: '"next.js-typescript-starter-kit" from client'
+  }
+  const server = !!context.req
 
-    console.log(props)
-    return props
+  if (server) {
+    props.name = await mockFetchName()
   }
 
-  render() {
-    return (
-      <Layout>
-        {this.props.name}
-      </Layout>
-    )
-  }
+  return props
 }
+export default SSR
 
 interface Props {
   name
 }
-
-export async function mockFetchName() {
+async function mockFetchName() {
   return '"next.js-typescript-starter-kit" from server'
 }

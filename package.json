@@ -1,6 +1,6 @@
 {
   "name": "next.js-typescript-starter-kit",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "main": "index.js",
   "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
   "author": "Bonggyun Lee <deptno@gmail.com>",
@@ -22,8 +22,8 @@
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.22.2",
     "next": "^7.0.2",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
     "react-ga": "^2.5.3",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
@@ -37,7 +37,7 @@
     "@types/enzyme-adapter-react-16": "^1.0.2",
     "@types/jest": "^23.3.3",
     "@types/node": "^8.10.14",
-    "@types/react": "^16.3.14",
+    "@types/react": "^16.7.13",
     "@types/react-redux": "^6.0.0",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
@@ -49,7 +49,7 @@
     "postcss": "^7.0.5",
     "postcss-preset-env": "^6.0.10",
     "ts-jest": "^23.10.3",
-    "typescript": "^3.1.6",
+    "typescript": "^3.2.1",
     "webpack-bundle-analyzer": "^3.0.2"
   },
   "jest": {

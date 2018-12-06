@@ -6,9 +6,9 @@ export default props =>
     <div>
       {/*language=PostCSS*/}
       <style jsx> {`
-        * {
-          color: darkred;
-        }
+          * {
+              color: darkred;
+          }
       `}
       </style>
       StyledJsx

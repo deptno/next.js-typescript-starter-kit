@@ -2,6 +2,7 @@
 
 ![samples](assets/samples.png)
 
+It has applied React 16.7.0-alpha2 and FunctionComponenet style.
 Start with sample
 
 ### Latest update

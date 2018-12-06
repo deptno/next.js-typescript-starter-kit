@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Link from 'next/link'
 
-export const Nav = props =>
+export const Nav: React.FunctionComponent = props =>
   <nav>
     <h4>
       samples

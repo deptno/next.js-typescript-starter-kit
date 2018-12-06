@@ -3,8 +3,8 @@
 ### 7.0.2
 - add favicon
 - next@7.0.2
-- react@16.6
-- typescript@3.1.5
+- react@16.7.0-alpha
+- typescript@3.2.1
 
 ### 7.0.1
 - replace npm with yarn in `README.me`

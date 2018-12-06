@@ -7,7 +7,6 @@ import {addRouteCompleteEvent} from '../router'
 
 const INITIALIZED_GA = 'INITIALIZED_GA'
 const SKIP_GA = 'SKIP_GA'
-const UPDATE_USER = 'UPDATE_USER'
 
 export const initializeGa = (userId?) => {
   if (!DEV && GA_TRACKING_ID) {
@@ -23,9 +22,3 @@ export const initializeGa = (userId?) => {
   return {type: SKIP_GA}
 }
 
-export const setGaUser = (userId?) => {
-  if (!DEV) {
-    GA.set({userId})
-  }
-  return {type: UPDATE_USER}
-}
