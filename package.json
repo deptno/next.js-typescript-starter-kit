@@ -1,6 +1,6 @@
 {
   "name": "next.js-typescript-starter-kit",
-  "version": "7.0.2",
+  "version": "8.0.0",
   "main": "index.js",
   "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
   "author": "Bonggyun Lee <deptno@gmail.com>",
@@ -22,9 +22,9 @@
     "classnames": "^2.2.6",
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.22.2",
-    "next": "^7.0.2",
-    "react": "^16.7.0-alpha.2",
-    "react-dom": "^16.7.0-alpha.2",
+    "next": "^8.0.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
     "react-ga": "^2.5.3",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
@@ -50,7 +50,7 @@
     "postcss": "^7.0.5",
     "postcss-preset-env": "^6.0.10",
     "ts-jest": "^23.10.3",
-    "typescript": "^3.2.1",
+    "typescript": "^3.3.3",
     "webpack-bundle-analyzer": "^3.0.2"
   },
   "jest": {

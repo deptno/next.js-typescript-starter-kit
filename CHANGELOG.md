@@ -1,5 +1,10 @@
 # changelog
 
+### 8.0.0
+- next@8
+- react@16.8.1
+- typescript@3.3.3
+
 ### 7.0.2
 - add favicon
 - next@7.0.2
