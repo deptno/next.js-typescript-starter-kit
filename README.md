@@ -2,14 +2,8 @@
 
 ![samples](assets/samples.png)
 
-It has applied React 16.7.0-alpha2 and FunctionComponenet style.
-Start with sample
-
 ### Latest update
-- **REMOVED storybook** (conflict with TypeScript, Next), you can use via old version [v6.0.1](https://github.com/deptno/next.js-typescript-starter-kit/releases/tag/6.0.1)
-- typescript@3.1.5, next@7.0.2, react@16.6
-- applied postcss-preset-env
-- add favicon.ico
+- typescript@3.3.3, next@8.0.0, react@16.8
 
 > see **[ChangeLog](CHANGELOG.md)**
 
