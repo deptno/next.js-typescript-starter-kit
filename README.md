@@ -2,9 +2,6 @@
 
 ![samples](assets/samples.png)
 
-### Latest update
-- typescript@3.3.3, next@8.0.0, react@16.8
-
 > see **[ChangeLog](CHANGELOG.md)**
 
 ## Feature
